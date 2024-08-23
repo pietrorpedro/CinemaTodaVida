@@ -1,0 +1,21 @@
+/* .movie {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+} */
+
+.buy-ticket a,
+.genre {
+    background-color: #FFC300;
+}
+
+.buy-ticket a:hover {
+    background-color: #d1a000;
+}
+
+@media screen and (max-width:767px) {
+    .buy-ticket a {
+        width: 100%;
+    }
+}
+

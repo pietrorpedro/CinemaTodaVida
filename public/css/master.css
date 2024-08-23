@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav,
+footer {
+    background-color: #FFD60A;
+}
+
+header nav .button {
+    background-color: #003566;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+
+header nav .button:hover {
+    color: white;
+    background-color: #001D3D;
+    transition: 0.5s;
+}
+
+.user-icon {
+    max-width: 30px;
+}
