@@ -33,34 +33,27 @@ Este é um sistema de venda de ingressos para filmes desenvolvido com Laravel. A
    composer install
    ```
 
-3. Crie o arquivo `.env`:
+3. Configure as variáveis de ambiente no arquivo `.env`:
 
-   ```bash
-   cp .env.example .env
-   ```
-
-4. Configure as variáveis de ambiente no arquivo `.env`:
-
-   - Defina as credenciais do banco de dados.
-   - Adicione sua chave de API do The Movie Database:
+   - Substitua o valor da variável `API_KEY="${TMDB_API_KEY}"` pela sua chave da API do The Movie Database:
 
      ```env
      TMDB_API_KEY=sua_chave_api
      ```
 
-5. Gere a chave da aplicação:
+4. Gere a chave da aplicação:
 
    ```bash
    php artisan key:generate
    ```
 
-6. Execute as migrações do banco de dados:
+5. Execute as migrações do banco de dados:
 
    ```bash
    php artisan migrate
    ```
 
-7. Inicie o servidor de desenvolvimento:
+6. Inicie o servidor de desenvolvimento:
 
    ```bash
    php artisan serve
